@@ -1,0 +1,6 @@
+[package]
+name = "ns_time"
+version = "0.0.1"
+edition = "2024"
+[dependencies]
+iced = { version = "0.14.0", default-features = false, features = [ "crisp", "linux-theme-detection", "thread-pool", "tiny-skia", "wayland", "web-colors", "x11"] }
